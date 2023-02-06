@@ -53,4 +53,11 @@ table {
   border-spacing: 0;
 }
 
+h1 {
+  font-size: 4rem;
+  font-family: butcherman, Copperplate, Papyrus, fantasy;
+  color: #363B67;
+  line-height: 2;
+}
+
 /*# sourceMappingURL=style.css.map */
