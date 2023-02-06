@@ -1,0 +1,41 @@
+//these variables are inspired by the SASS tutorials on youtube (the net ninja) but customized for our group's style
+
+// theme colors
+$primary: #363B67;
+$secondary: #172440;
+$tertiary: #78B691;
+$warning: #08DB09;
+$success: #604187;
+$light: #F5F5F5;
+$dark: #010C11;
+
+// color palette -- **team can add more if they want
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "warning": $warning,
+  "success": $success,
+  "light": $light,
+  "dark": $dark,
+);
+
+// spacing
+$base-padding: 0.625rem; //10px? 
+$base-margin: 0.625rem; //10px?
+
+// borders
+$base-border-thickness: 2px;
+$base-border-radius: 10px;
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 2.25;
+$font-size-xl: $base-font-size * 3;
+$font-size-xxl: $base-font-size * 4;
+
+// font styles
+$butcherman: 'Butcherman', cursive;
+$staalitches: 'Staatliches', cursive;
+$cabin: 'Cabin', sans-serif;

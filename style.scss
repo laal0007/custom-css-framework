@@ -1,4 +1,22 @@
-@import "_variables.scss"
-
 // Watch the scss code so that it syncs changes to the css folder
 // sass --watch style.scss style.css
+
+// CSS reset
+@import "_reset.scss";
+
+//variables
+@import "_variables.scss";
+
+//cards -- create new scss file
+@import "_cards.scss";
+
+//tables -- create new scss file
+@import "_tables.scss";
+
+//buttons -- create new scss file
+@import "_buttons.scss";
+
+//font import
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Cabin:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap');
+
+//basic html elements (body/p, input/label, anchors/links, ul, ol, li, etc.) 
