@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,11 +54,372 @@ table {
   border-spacing: 0;
 }
 
+.text-primary {
+  color: #363B67;
+}
+
+.text-hover-primary:hover {
+  color: #363B67;
+}
+
+.bg-primary {
+  background-color: #363B67;
+}
+
+.text-secondary {
+  color: #172440;
+}
+
+.text-hover-secondary:hover {
+  color: #172440;
+}
+
+.bg-secondary {
+  background-color: #172440;
+}
+
+.text-tertiary {
+  color: #78B691;
+}
+
+.text-hover-tertiary:hover {
+  color: #78B691;
+}
+
+.bg-tertiary {
+  background-color: #78B691;
+}
+
+.text-warning {
+  color: #08DB09;
+}
+
+.text-hover-warning:hover {
+  color: #08DB09;
+}
+
+.bg-warning {
+  background-color: #08DB09;
+}
+
+.text-success {
+  color: #604187;
+}
+
+.text-hover-success:hover {
+  color: #604187;
+}
+
+.bg-success {
+  background-color: #604187;
+}
+
+.text-light {
+  color: #F5F5F5;
+}
+
+.text-hover-light:hover {
+  color: #F5F5F5;
+}
+
+.bg-light {
+  background-color: #F5F5F5;
+}
+
+.text-dark {
+  color: #010C11;
+}
+
+.text-hover-dark:hover {
+  color: #010C11;
+}
+
+.bg-dark {
+  background-color: #010C11;
+}
+
+.btn {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #e2e2e2;
+}
+
+.btn-primary {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #363B67;
+}
+.btn-primary:hover {
+  background-color: #3f4578;
+}
+
+.btn-outlined-primary {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #363B67;
+}
+.btn-outlined-primary:hover {
+  background-color: #363b67;
+}
+
+.btn-secondary {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #172440;
+}
+.btn-secondary:hover {
+  background-color: #1e2f53;
+}
+
+.btn-outlined-secondary {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #172440;
+}
+.btn-outlined-secondary:hover {
+  background-color: #172440;
+}
+
+.btn-tertiary {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #78B691;
+}
+.btn-tertiary:hover {
+  background-color: #89bf9e;
+}
+
+.btn-outlined-tertiary {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #78B691;
+}
+.btn-outlined-tertiary:hover {
+  background-color: #78b691;
+}
+
+.btn-warning {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #08DB09;
+}
+.btn-warning:hover {
+  background-color: #09f40a;
+}
+
+.btn-outlined-warning {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #08DB09;
+}
+.btn-outlined-warning:hover {
+  background-color: #08db09;
+}
+
+.btn-success {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #604187;
+}
+.btn-success:hover {
+  background-color: #6c4998;
+}
+
+.btn-outlined-success {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #604187;
+}
+.btn-outlined-success:hover {
+  background-color: #604187;
+}
+
+.btn-light {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+.btn-light:hover {
+  background-color: white;
+}
+
+.btn-outlined-light {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #F5F5F5;
+}
+.btn-outlined-light:hover {
+  background-color: whitesmoke;
+}
+
+.btn-dark {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #010C11;
+}
+.btn-dark:hover {
+  background-color: #021d29;
+}
+
+.btn-outlined-dark {
+  font-family: "Staatliches", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.4166666667rem 1.875rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #010C11;
+}
+.btn-outlined-dark:hover {
+  background-color: #010c11;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  line-height: 1.3;
+}
+
+a {
+  color: #363B67;
+  font-weight: 700;
+}
+
+ul {
+  list-style: square inside;
+}
+
+ol {
+  list-style: upper-roman inside;
+}
+
+label {
+  color: #363B67;
+  font-weight: 700;
+}
+
+input {
+  border-radius: 10px;
+  border: 2px solid #363B67;
+}
+
+/* heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 */
 h1 {
   font-size: 4rem;
-  font-family: butcherman, Copperplate, Papyrus, fantasy;
+  font-family: "Butcherman", Copperplate, Papyrus, fantasy;
   color: #363B67;
-  line-height: 2;
 }
+
+h2 {
+  font-size: 3rem;
+  font-family: "Staatliches", sans-serif;
+  color: #363B67;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2.25rem;
+  color: #172440;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2.25rem;
+  color: #172440;
+  font-style: italic;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #172440;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 1rem;
+  color: #172440;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* input Label: a - anchojr/link ul - {list-style-type: square;} *Figma does not have square bullets List 1 List 2 List 3 ol - {list-style-type: upper-roman;} I. List 1 II. List 2 III. List 3 li - List Item p - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis, ante vel hendrerit suscipit, diam lorem sodales ex, eu feugiat metus dui non tellus. */
 
 /*# sourceMappingURL=style.css.map */

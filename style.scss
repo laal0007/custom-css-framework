@@ -7,6 +7,9 @@
 //variables
 @import "_variables.scss";
 
+//colours
+@import "_colors.scss";
+
 //cards -- create new scss file
 @import "./components/_cards.scss";
 
@@ -20,13 +23,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Cabin:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap');
 
 //basic html elements (body/p, input/label, anchors/links, ul, ol, li, etc.) 
+
+body {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.3;
+}
+
+a {
+    color: $primary;
+    font-weight: 700;
+}
+
+ul {
+    list-style:square inside;
+}
+
+ol {
+    list-style:upper-roman inside;
+}
+
+label {
+    color: $primary;
+    font-weight: 700;
+}
+
+input {
+    border-radius: 10px;
+    border: 2px solid $primary;
+}
+
+/* heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 */
+
 h1 {
     font-size: $font-size-xxl;
-    font-family: butcherman, Copperplate, Papyrus, fantasy;
+    font-family: 'Butcherman', Copperplate, Papyrus, fantasy;
     color: $primary;
-    line-height: 2;
+
 }
 
 h2 {
-
+    font-size: $font-size-xl;
+    font-family: 'Staatliches', sans-serif;
+    color: $primary;
+    text-transform: uppercase;
 }
+
+h3 {
+    font-size: $font-size-lg;
+    color: $secondary;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: $font-size-lg;
+    color: $secondary;
+    font-style: italic;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: $base-font-size;
+    color: $secondary;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: $base-font-size;
+    color: $secondary;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* input Label: a - anchojr/link ul - {list-style-type: square;} *Figma does not have square bullets List 1 List 2 List 3 ol - {list-style-type: upper-roman;} I. List 1 II. List 2 III. List 3 li - List Item p - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis, ante vel hendrerit suscipit, diam lorem sodales ex, eu feugiat metus dui non tellus. */
+
+
+
