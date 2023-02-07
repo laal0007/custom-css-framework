@@ -66,6 +66,26 @@ table {
   background-color: #363B67;
 }
 
+.br-primary {
+  border: 2px solid #363B67 !important;
+}
+
+.br-left-primary {
+  border-left: 2px solid #363B67 !important;
+}
+
+.br-right-primary {
+  border-right: 2px solid #363B67 !important;
+}
+
+.br-top-primary {
+  border-top: 2px solid #363B67 !important;
+}
+
+.br-bottom-primary {
+  border-bottom: 2px solid #363B67 !important;
+}
+
 .text-secondary {
   color: #172440;
 }
@@ -76,6 +96,26 @@ table {
 
 .bg-secondary {
   background-color: #172440;
+}
+
+.br-secondary {
+  border: 2px solid #172440 !important;
+}
+
+.br-left-secondary {
+  border-left: 2px solid #172440 !important;
+}
+
+.br-right-secondary {
+  border-right: 2px solid #172440 !important;
+}
+
+.br-top-secondary {
+  border-top: 2px solid #172440 !important;
+}
+
+.br-bottom-secondary {
+  border-bottom: 2px solid #172440 !important;
 }
 
 .text-tertiary {
@@ -90,6 +130,26 @@ table {
   background-color: #78B691;
 }
 
+.br-tertiary {
+  border: 2px solid #78B691 !important;
+}
+
+.br-left-tertiary {
+  border-left: 2px solid #78B691 !important;
+}
+
+.br-right-tertiary {
+  border-right: 2px solid #78B691 !important;
+}
+
+.br-top-tertiary {
+  border-top: 2px solid #78B691 !important;
+}
+
+.br-bottom-tertiary {
+  border-bottom: 2px solid #78B691 !important;
+}
+
 .text-warning {
   color: #08DB09;
 }
@@ -100,6 +160,26 @@ table {
 
 .bg-warning {
   background-color: #08DB09;
+}
+
+.br-warning {
+  border: 2px solid #08DB09 !important;
+}
+
+.br-left-warning {
+  border-left: 2px solid #08DB09 !important;
+}
+
+.br-right-warning {
+  border-right: 2px solid #08DB09 !important;
+}
+
+.br-top-warning {
+  border-top: 2px solid #08DB09 !important;
+}
+
+.br-bottom-warning {
+  border-bottom: 2px solid #08DB09 !important;
 }
 
 .text-success {
@@ -114,6 +194,26 @@ table {
   background-color: #604187;
 }
 
+.br-success {
+  border: 2px solid #604187 !important;
+}
+
+.br-left-success {
+  border-left: 2px solid #604187 !important;
+}
+
+.br-right-success {
+  border-right: 2px solid #604187 !important;
+}
+
+.br-top-success {
+  border-top: 2px solid #604187 !important;
+}
+
+.br-bottom-success {
+  border-bottom: 2px solid #604187 !important;
+}
+
 .text-light {
   color: #F5F5F5;
 }
@@ -126,6 +226,26 @@ table {
   background-color: #F5F5F5;
 }
 
+.br-light {
+  border: 2px solid #F5F5F5 !important;
+}
+
+.br-left-light {
+  border-left: 2px solid #F5F5F5 !important;
+}
+
+.br-right-light {
+  border-right: 2px solid #F5F5F5 !important;
+}
+
+.br-top-light {
+  border-top: 2px solid #F5F5F5 !important;
+}
+
+.br-bottom-light {
+  border-bottom: 2px solid #F5F5F5 !important;
+}
+
 .text-dark {
   color: #010C11;
 }
@@ -136,6 +256,334 @@ table {
 
 .bg-dark {
   background-color: #010C11;
+}
+
+.br-dark {
+  border: 2px solid #010C11 !important;
+}
+
+.br-left-dark {
+  border-left: 2px solid #010C11 !important;
+}
+
+.br-right-dark {
+  border-right: 2px solid #010C11 !important;
+}
+
+.br-top-dark {
+  border-top: 2px solid #010C11 !important;
+}
+
+.br-bottom-dark {
+  border-bottom: 2px solid #010C11 !important;
+}
+
+.card-1-primary {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #363B67;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-primary .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-primary .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-primary {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #363B67;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-primary .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-primary .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
+}
+
+.card-1-secondary {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #172440;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-secondary .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-secondary .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-secondary {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #172440;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-secondary .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-secondary .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
+}
+
+.card-1-tertiary {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #78B691;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-tertiary .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-tertiary .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-tertiary {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #78B691;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-tertiary .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-tertiary .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
+}
+
+.card-1-warning {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #08DB09;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-warning .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-warning .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-warning {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #08DB09;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-warning .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-warning .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
+}
+
+.card-1-success {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #604187;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-success .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-success .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-success {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #604187;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-success .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-success .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
+}
+
+.card-1-light {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #F5F5F5;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-light .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-light .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-light {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #F5F5F5;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-light .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-light .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
+}
+
+.card-1-dark {
+  display: block;
+  margin: 0.625rem;
+  max-width: 280px;
+  background-color: #010C11;
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-1-dark .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+.card-1-dark .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+}
+
+.card-2-dark {
+  display: flex;
+  margin: 0.625rem;
+  max-width: 450px;
+  background-color: #010C11;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.card-2-dark .card-title {
+  font-size: 2.25rem;
+  font-family: "Staatliches", cursive;
+  display: flex;
+  justify-content: center;
+}
+.card-2-dark .card-body {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  padding: 0.625rem;
+  border-left: 2px solid;
+  border-radius: 0;
 }
 
 .btn {
@@ -366,6 +814,10 @@ ul {
   list-style: square inside;
 }
 
+li {
+  list-style-type: upper-roman;
+}
+
 ol {
   list-style: upper-roman inside;
 }
@@ -378,6 +830,10 @@ label {
 input {
   border-radius: 10px;
   border: 2px solid #363B67;
+}
+
+p {
+  font-family: "Cabin", sans-serif;
 }
 
 /* heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 */
