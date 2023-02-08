@@ -6,9 +6,6 @@
     background-color: $val;
     border: $base-border-thickness solid;
     border-radius: $base-border-radius;
- 
-
-
 
     .card-title{
         font-size: $font-size-lg;
@@ -28,7 +25,6 @@
 .card-2-#{$key}{
     display: flex;
     margin: $base-margin;
-    max-width: 450px;
     background-color: $val;
     border: $base-border-thickness solid;
     border-radius: $base-border-radius;
