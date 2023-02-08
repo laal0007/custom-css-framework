@@ -1,0 +1,43 @@
+
+.table-1 {
+    font-family: 'Cabin';
+    color: $light;
+    text-align: center;
+    margin: 10px;
+    th {
+        font-size: 24pt;
+        padding: 20px 40px;
+        background-color: $primary;
+    }
+    th:first-child {
+        border-top-left-radius: 10px;
+    }    
+    th:last-child {
+        border-top-right-radius: 10px;
+    }
+    td {
+        font-size: 16pt;
+        border-top: 1px solid $tertiary;
+        background-color: $secondary;
+        padding: 20px 40px;
+    }
+    tr:nth-child(2) > td {
+        border-top: 3px solid $tertiary;
+    }
+}
+
+.table-2 { 
+    @extend .table-1;
+
+    tr:nth-child(2n-1) > td {
+        background-color: $primary;
+    }
+    
+    td{
+        border-top: 1px solid $light;
+    }
+    tr:nth-child(2) > td {
+        border-top: 3px solid $light;
+    }
+}
+

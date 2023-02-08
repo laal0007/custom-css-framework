@@ -54,6 +54,64 @@ table {
   border-spacing: 0;
 }
 
+.table-1, .table-2 {
+  font-family: "Cabin";
+  color: #F5F5F5;
+  text-align: center;
+  margin: 10px;
+}
+.table-1 th, .table-2 th {
+  font-size: 24pt;
+  padding: 20px 40px;
+  background-color: #363B67;
+}
+.table-1 th:first-child, .table-2 th:first-child {
+  border-top-left-radius: 10px;
+}
+.table-1 th:last-child, .table-2 th:last-child {
+  border-top-right-radius: 10px;
+}
+.table-1 td, .table-2 td {
+  font-size: 16pt;
+  border-top: 1px solid #78B691;
+  background-color: #172440;
+  padding: 20px 40px;
+}
+.table-1 tr:nth-child(2) > td, .table-2 tr:nth-child(2) > td {
+  border-top: 3px solid #78B691;
+}
+
+.table-2 tr:nth-child(2n-1) > td {
+  background-color: #363B67;
+}
+.table-2 td {
+  border-top: 1px solid #F5F5F5;
+}
+.table-2 tr:nth-child(2) > td {
+  border-top: 3px solid #F5F5F5;
+}
+
+.img, .img-small, .img-medium, .img-large {
+  display: block;
+}
+
+.img-large {
+  width: 1400px;
+  height: 400px;
+}
+
+.img-medium {
+  width: 500px;
+  height: 300px;
+}
+
+.img-small {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: #F5F5F5 2px solid;
+}/*# sourceMappingURL=style.css.map */
+
 .text-primary {
   color: #363B67;
 }
@@ -879,3 +937,4 @@ h6 {
 /* input Label: a - anchojr/link ul - {list-style-type: square;} *Figma does not have square bullets List 1 List 2 List 3 ol - {list-style-type: upper-roman;} I. List 1 II. List 2 III. List 3 li - List Item p - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis, ante vel hendrerit suscipit, diam lorem sodales ex, eu feugiat metus dui non tellus. */
 
 /*# sourceMappingURL=style.css.map */
+

@@ -7,14 +7,17 @@
 //variables
 @import "_variables.scss";
 
+//tables -- create new scss file
+@import "components/tables.scss";
+
+//images -- create new scss file
+@import "components/images.scss";
+
 //colours
 @import "_colors.scss";
 
 //cards -- create new scss file
 @import "./components/_cards.scss";
-
-//tables -- create new scss file
-@import "./components/_tables.scss";
 
 //buttons -- create new scss file
 @import "./components/_buttons.scss";
