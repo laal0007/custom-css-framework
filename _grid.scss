@@ -1,0 +1,67 @@
+@use "sass:math";
+
+$grid-columns: 8;
+
+// base layout classes
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@mixin col($cols) {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: math.div($cols * 100%, $grid-columns);
+}
+
+@include tiny {
+    @for $i from 1 through $grid-columns {
+        .showAcross-#{$i}-cols-forScreen-tiny {
+            @include col($i);
+        }
+    }
+}
+@include small {
+    @for $i from 1 through $grid-columns {
+        .showAcross-#{$i}-cols-forScreen-small {
+            @include col($i);
+        }
+    }
+}
+@include medium {
+    @for $i from 1 through $grid-columns {
+        .showAcross-#{$i}-cols-forScreen-medium {
+            @include col($i);
+        }
+    }
+}
+@include large {
+    @for $i from 1 through $grid-columns {
+        .showAcross-#{$i}-cols-forScreen-large {
+            @include col($i);
+        }
+    }
+}
+@include xlarge {
+    @for $i from 1 through $grid-columns {
+        .showAcross-#{$i}-cols-forScreen-xlarge {
+            @include col($i);
+        }
+    }
+}
+@include xxlarge {
+    @for $i from 1 through $grid-columns {
+        .showAcross-#{$i}-cols-forScreen-xxlarge {
+            @include col($i);
+        }
+    }
+}
