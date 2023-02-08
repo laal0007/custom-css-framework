@@ -28,6 +28,7 @@
     background-color: $val;
     border: $base-border-thickness solid;
     border-radius: $base-border-radius;
+    min-width: 40%;
 
     .card-title{
         font-size: $font-size-lg;
@@ -47,6 +48,7 @@
         border-top-left-radius: $base-border-radius;
         border-bottom-left-radius: $base-border-radius;
         border: $val $base-border-thickness solid;
+        align-self: center;
     }
 }
 }
