@@ -3,17 +3,12 @@
 .card-1-#{$key}{
     display: block;
     margin: $base-margin;
-    // removing max-width as it's this should be controlled by the grid.
-    // max-width: 280px;
     background-color: $val;
     border: $base-border-thickness solid;
-
-    // removing top-left and top-right border radius. Based on the figma design, all four corners are curved.
     border-radius: $base-border-radius;
-    // border-top-left-radius: $base-border-radius;
-    // border-top-right-radius: $base-border-radius;
+ 
 
-    
+
 
     .card-title{
         font-size: $font-size-lg;
