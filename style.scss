@@ -7,20 +7,23 @@
 //variables
 @import "_variables.scss";
 
-//tables -- create new scss file
-@import "components/tables.scss";
+//layout
 
-//images -- create new scss file
+@import 'breakpoints';
+@import 'grid';
+
+//components (buttons, cards, navbars)
+
+@import "components/tables.scss";
 @import "components/images.scss";
+@import "./components/_cards.scss";
+@import "./components/_buttons.scss";
 
 //colours
 @import "_colors.scss";
 
-//cards -- create new scss file
-@import "./components/_cards.scss";
-
-//buttons -- create new scss file
-@import "./components/_buttons.scss";
+//utilities
+@import "./_utilities.scss";
 
 //font import
 @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Cabin:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap');
@@ -42,9 +45,7 @@ ul {
     list-style:square inside;
 }
 
-li {
-    list-style-type: upper-roman;
-}
+
 
 ol {
     list-style:upper-roman inside;
