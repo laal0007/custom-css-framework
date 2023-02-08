@@ -3,12 +3,9 @@
 .card-1-#{$key}{
     display: block;
     margin: $base-margin;
-    max-width: 280px;
     background-color: $val;
     border: $base-border-thickness solid;
-    border-top-left-radius: $base-border-radius;
-    border-top-right-radius: $base-border-radius;
-
+    border-radius: $base-border-radius;
 
     .card-title{
         font-size: $font-size-lg;
@@ -28,10 +25,10 @@
 .card-2-#{$key}{
     display: flex;
     margin: $base-margin;
-    max-width: 450px;
     background-color: $val;
     border: $base-border-thickness solid;
     border-radius: $base-border-radius;
+    min-width: 40%;
 
     .card-title{
         font-size: $font-size-lg;
@@ -45,7 +42,13 @@
         font-family: $cabin;
         padding: $base-padding;
         border-left: $base-border-thickness solid ;
-        border-radius: 0;
+    }
+
+    .card-img {
+        border-top-left-radius: $base-border-radius;
+        border-bottom-left-radius: $base-border-radius;
+        border: $val $base-border-thickness solid;
+        align-self: center;
     }
 }
 }
